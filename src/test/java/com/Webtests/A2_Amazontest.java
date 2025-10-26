@@ -12,7 +12,7 @@ public class A2_Amazontest {
 	public WebDriver driver;
 	@Parameters({"bname"})
   @Test
-  public void open_amazon(String bname,String remote_url) {
+  public void open_amazon(String bname) {
 	  
 	  if(bname.equals("Chrome")) {
 		  driver =new ChromeDriver();

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.364 s <<< FAILURE! -- in TestSuite
-com.Webtests.A2_Amazontest.open_amazon -- Time elapsed: 1.780 s <<< FAILURE!
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.698 s <<< FAILURE! -- in TestSuite
+com.Webtests.A2_Amazontest.open_amazon -- Time elapsed: 1.199 s <<< FAILURE!
 org.testng.TestNGException: 
 
 Method open_amazon requires 2 parameters but 1 were supplied in the @Test annotation.
@@ -28,7 +28,7 @@ Method open_amazon requires 2 parameters but 1 were supplied in the @Test annota
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-com.Webtests.A2_Amazontest.open_amazon -- Time elapsed: 1.789 s <<< FAILURE!
+com.Webtests.A2_Amazontest.open_amazon -- Time elapsed: 1.201 s <<< FAILURE!
 org.testng.TestNGException: 
 
 Method open_amazon requires 2 parameters but 1 were supplied in the @Test annotation.
@@ -54,7 +54,7 @@ Method open_amazon requires 2 parameters but 1 were supplied in the @Test annota
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-com.Webtests.A2_Amazontest.open_amazon -- Time elapsed: 1.790 s <<< FAILURE!
+com.Webtests.A2_Amazontest.open_amazon -- Time elapsed: 1.202 s <<< FAILURE!
 org.testng.TestNGException: 
 
 Method open_amazon requires 2 parameters but 1 were supplied in the @Test annotation.

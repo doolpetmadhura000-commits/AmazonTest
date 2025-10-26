@@ -21,4 +21,14 @@
       </class> <!-- com.Webtests.A2_Amazontest -->
     </classes>
   </test> <!-- EdgeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)" verbose="0">
+    <parameter name="bname" value="Firefox"/>
+    <classes>
+      <class name="com.Webtests.A2_Amazontest">
+        <methods>
+          <include name="open_amazon" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Webtests.A2_Amazontest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

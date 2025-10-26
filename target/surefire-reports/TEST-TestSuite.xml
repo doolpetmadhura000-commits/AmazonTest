@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="404.185" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Madhura_Selenium Demos\MyMaven\target\test-classes;E:\Madhura_Selenium Demos\MyMaven\target\classes;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\ESHWAR\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ESHWAR\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ESHWAR\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\ESHWAR\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ESHWAR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ESHWAR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ESHWAR\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\ESHWAR\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ESHWAR\AppData\Local\Temp\surefire10118425249350264506\surefirebooter-20251026135736301_3.jar C:\Users\ESHWAR\AppData\Local\Temp\surefire10118425249350264506 2025-10-26T13-57-35_912-jvmRun1 surefire-20251026135736301_1tmp surefire_0-20251026135736301_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Madhura_Selenium Demos\MyMaven\target\test-classes;E:\Madhura_Selenium Demos\MyMaven\target\classes;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\ESHWAR\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ESHWAR\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ESHWAR\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\ESHWAR\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\ESHWAR\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\ESHWAR\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\ESHWAR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ESHWAR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ESHWAR\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ESHWAR"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Users\ESHWAR\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\Madhura_Selenium Demos\MyMaven"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ESHWAR\AppData\Local\Temp\surefire10118425249350264506\surefirebooter-20251026135736301_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="ESHWAR"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.7+6"/>
+    <property name="localRepository" value="C:\Users\ESHWAR\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ESHWAR\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="E:\Madhura_Selenium Demos\MyMaven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\ESHWAR\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/ESHWAR/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin/server;C:/Users/ESHWAR/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;C:\selenium_downloads\apache-maven-3.9.11\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ESHWAR\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ESHWAR\AppData\Local\Programs\Python\Python310\;C:\Users\ESHWAR\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;;C:\Windows\SysWOW64;C:\Users\ESHWAR\AppData\Roaming\npm;C:\Users\ESHWAR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ESHWAR\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="open_amazon[Chrome](1)" classname="com.Webtests.A2_Amazontest" time="17.456">
+    <system-out><![CDATA[Session started in Chrome
+Page title for Chrome is: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+Title matched
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 26, 2025 1:57:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="open_amazon[Firefox](1)" classname="com.Webtests.A2_Amazontest" time="256.291">
+    <system-out><![CDATA[Session started in FireFox
+Page title for Firefox is: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+Title matched
+]]></system-out>
+  </testcase>
+  <testcase name="open_amazon[Edge](1)" classname="com.Webtests.A2_Amazontest" time="402.695">
+    <failure message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;MicrosoftEdge 141 cannot be downloaded&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: driver.version: EdgeDriver" type="org.openqa.selenium.remote.NoSuchDriverException"><![CDATA[org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
+MicrosoftEdge 141 cannot be downloaded
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+	at com.Webtests.A2_Amazontest.open_amazon(A2_Amazontest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
+MicrosoftEdge 141 cannot be downloaded
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
+	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:104)
+	... 27 more
+]]></failure>
+    <system-err><![CDATA[Oct 26, 2025 2:04:20 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: Expected MicrosoftEdge path does not exist: C:\Program Files (x86)\Microsoft\Edge\Application\141.0.3537.99\msedge.exe
+Oct 26, 2025 2:04:20 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: MicrosoftEdge 141 cannot be downloaded
+]]></system-err>
+  </testcase>
+</testsuite>

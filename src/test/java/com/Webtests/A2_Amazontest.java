@@ -1,27 +1,39 @@
 package com.Webtests;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URI;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class A2_Amazontest {
 	public WebDriver driver;
+	public URI uri = URI.create("http://localhost:4444/wd/hub");
+	@SuppressWarnings("deprecation")
 	@Parameters({"bname"})
   @Test
-  public void open_amazon(String bname) {
+  public void open_amazon(String bname) throws MalformedURLException {
 	  
 	  if(bname.equals("Chrome")) {
-		  driver =new ChromeDriver();
+		  ChromeOptions option = new ChromeOptions();
+		  driver =new RemoteWebDriver(uri.toURL(), option);
 		  System.out.println("Session started in Chrome");
 	  }else if(bname.equals("Firefox")){
-		  driver = new FirefoxDriver();
+		  FirefoxOptions option = new FirefoxOptions();
+		  driver =new RemoteWebDriver(uri.toURL(),option);
 		  System.out.println("Session started in FireFox");
 	  }else if(bname.equals("Edge")){
-		  driver = new EdgeDriver();
+		  EdgeOptions option = new EdgeOptions();
+		  driver =new RemoteWebDriver(uri.toURL(),option);
 		  System.out.println("Session started in Edge");
 	  }
 	  

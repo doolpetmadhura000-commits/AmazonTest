@@ -12,10 +12,10 @@ public class A2_Amazontest {
 	public WebDriver driver;
 	@Parameters({"bname"})
   @Test
-  public void open_amazon(String bname) {
+  public void open_amazon(String bname,String remote_url) {
 	  
 	  if(bname.equals("Chrome")) {
-		  driver = new ChromeDriver();
+		  driver =new ChromeDriver();
 		  System.out.println("Session started in Chrome");
 	  }else if(bname.equals("Firefox")){
 		  driver = new FirefoxDriver();
